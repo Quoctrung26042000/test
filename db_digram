@@ -1,0 +1,23 @@
+User Table:
+- user_id (Primary Key)
+- username
+- email
+- password_hash
+- registration_date
+
+Island Table:
+- island_id (Primary Key)
+- latitude
+- longitude
+- island_area
+- detection_time
+- user_id (Foreign Key to User Table)
+
+Comment Table:
+- comment_id (Primary Key)
+- island_id (Foreign Key to Island Table)
+- user_id (Foreign Key to User Table)
+- comment_text
+- attachment_type (e.g., image, video)
+- attachment_url
+- comment_time

@@ -1,0 +1,5 @@
+[
+    {"name": "Island1", "latitude": 10.1234, "longitude": 20.5678},
+    {"name": "Island2", "latitude": 15.4321, "longitude": 25.8765},
+    {"name": "Island3", "latitude": 5.6789, "longitude": 30.9876}
+]
